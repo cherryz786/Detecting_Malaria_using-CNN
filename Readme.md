@@ -57,8 +57,8 @@ early_stop = EarlyStopping(monitor='val_loss', patience=2)
 ```
 
 ## Training
-Batch size: 16
-Classification report:
+- Batch size: 16
+- Classification report:
 ```yaml
 Copy code
 precision    recall  f1-score   support
