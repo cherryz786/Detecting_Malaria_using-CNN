@@ -1,8 +1,11 @@
-# Malaria Detection using CNN
+# Malaria Detection in blood cells
+
+![Untitled design (2)](https://github.com/cherryz786/Detecting_Malaria_using-CNN/assets/71602299/9839adc4-b32d-462c-8cd5-621024295382)
+(using CNN)
 
 ## Overview
 
-This project employs Convolutional Neural Networks (CNNs) for rapid and efficient malaria detection. Using a dataset of 27,558 images from the [NIH Malaria Datasets](https://ceb.nlm.nih.gov/repositories/malaria-datasets/), the model enhances diagnostic capabilities for identifying infected and uninfected cells.
+This project employs Convolutional Neural Networks (CNNs) for rapid and efficient malaria detectionin bood cells. Using a dataset of 27,558 images from the [NIH Malaria Datasets](https://ceb.nlm.nih.gov/repositories/malaria-datasets/), the model enhances diagnostic capabilities for identifying infected and uninfected cells.
 
 ## Benefits
 
