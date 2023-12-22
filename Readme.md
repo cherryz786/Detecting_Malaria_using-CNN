@@ -26,7 +26,19 @@ This project employs Convolutional Neural Networks (CNNs) for rapid and efficien
 
 ## Data Augmentation
 
-- Utilized `ImageDataGenerator` for image manipulation.
+- To address the challenge of limited images, we employed image manipulation techniques using the `ImageDataGenerator` from TensorFlow:
+```python
+image_gen = ImageDataGenerator(
+    rotation_range=20,
+    width_shift_range=0.10,
+    height_shift_range=0.10,
+    rescale=1/255,
+    shear_range=0.1,
+    zoom_range=0.1,
+    horizontal_flip=True,
+    fill_mode='nearest'
+)
+```
 
 ## CNN Model Architecture
 
