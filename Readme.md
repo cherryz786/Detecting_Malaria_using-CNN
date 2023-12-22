@@ -50,7 +50,7 @@ Classification report:
 ```yaml
 Copy code
 precision    recall  f1-score   support
-0       0.97      0.93      0.95      1300
-1       0.94      0.97      0.95      1300
-accuracy                           0.95      2600
+1.  0.97      0.93      0.95      1300
+2.  0.94      0.97      0.95      1300
+accuracy: 0.95
 ```
